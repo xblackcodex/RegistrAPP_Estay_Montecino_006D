@@ -1,0 +1,85 @@
+.texto{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ion-menu {
+    --background: rgb(7, 31, 83);
+}
+
+ion-content {
+    --background: rgb(7, 31, 83);
+    --color: #3880ff;
+}
+
+ion-item {
+    --background: rgb(21, 67, 168);
+    --background-activated: rgb(21, 67, 168);
+    --background-focused: rgb(21, 67, 168);
+    --background-hover: rgb(21, 67, 168);
+    --border-color: rgb(21, 67, 168);
+    --color: #ffffff;
+    --color-activated: #ffd900;
+    --color-focused: #ffd900;
+    --color-hover: #ffd900;
+    --detail-icon-color: #989aa2;
+    --detail-icon-font-size: 16px;
+    --detail-icon-opacity: 1;
+    --highlight-color-focused: #0cd1e8;
+    --highlight-color-invalid: #f04141;
+    --highlight-color-valid: #10dc60;
+    --highlight-height: 32px;
+    --inner-border-width: 8px;
+    --inner-box-shadow: 4px 4px;
+    --inner-padding-bottom: 4px;
+    --inner-padding-end: 4px;
+    --inner-padding-start: 4px;
+    --inner-padding-top: 4px;
+    --min-height: 24px;
+    --padding-bottom: 4px;
+    --padding-end: 4px;
+    --padding-start: 4px;
+    --padding-top: 4px;
+    --ripple-color: #1e1e1e;
+    --transition: background-color 15ms linear;
+}
+
+.icon{
+    color:#ffd900;
+}
+
+ion-button {
+    --background: #ffd900;
+    --background-activated: #ffd900;
+    --background-activated-opacity: 1;
+    --background-focused: #ffd900;
+    --background-focused-opacity: 1;
+    --background-hover: #ffd900;
+    --background-hover-opacity: 1;
+    --border-color: #ffd900;
+    --border-radius: 8px;
+    --border-style: solid;
+    --border-width: 8px;
+    --color: rgb(21, 67, 168);
+    --opacity: 1;
+    --padding-bottom: 4px;
+    --padding-end: 4px;
+    --padding-start: 4px;
+    --padding-top: 4px;
+    --ripple-color: #1e1e1e;
+    --transition: background-color 15ms linear;
+}
+
+ion-toolbar {
+    --background: rgb(21, 67, 168);
+    --border-color: #fcff33;
+    --border-style: solid;
+    --border-width: 1px;
+    --color: #ffffff;
+    --min-height: 56px;
+    --opacity: 1;
+    --padding-bottom: 4px;
+    --padding-end: 4px;
+    --padding-start: 4px;
+    --padding-top: 4px;
+}

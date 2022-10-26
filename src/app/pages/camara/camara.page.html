@@ -1,0 +1,25 @@
+<ion-header class="cabeza">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="start" name="menu-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Camara</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="assets/logo_app_3.png">
+    <ion-card-content style="padding-top: 30%;">
+      <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+        Abrir Camara
+      </ion-button>
+      <ion-card style="background-color: rgb(151, 182, 248)">
+        
+      </ion-card>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

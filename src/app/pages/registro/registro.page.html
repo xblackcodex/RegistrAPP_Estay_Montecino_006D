@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registro de Usuario</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button 
+        defaultHref="/"
+        text="Atras"
+        color="dark"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+
+    <ion-card-content class="boton">
+       <form [formGroup]="formularioRegistro" (keyup.enter)="CrearUsuario()">
+
+        <ion-item>
+          <ion-label position="floating">Tipo:</ion-label>
+          <ion-input type="text" formControlName="tipo" placeholder="Alumno o Docente"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Nombre:</ion-label>
+          <ion-input type="text" formControlName="nombre"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Apellido:</ion-label>
+          <ion-input type="text" formControlName="apellido"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Rut:</ion-label>
+          <ion-input type="text" formControlName="rut" minLength="8" maxLength="10"
+          pattern="^([0-9]+)-([kK0-9])$"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Correo:</ion-label>
+          <ion-input type="email" formControlName="correo" pattern="^([a-zA-Z0-9_\-\.]+)@duocuc.cl"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Password:</ion-label>
+          <ion-input type="password" formControlName="password" minlength="8" maxLength="15"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Confirma Pass:</ion-label>
+          <ion-input type="password" formControlName="confirmaPass" minlength="8" maxLength="15"></ion-input>
+        </ion-item>
+
+       </form>
+       <br>
+       <ion-button (click)="CrearUsuario()" expand="block" fill="outline" shape="round">
+         Registrar
+       </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button [routerLink] = "['/login']">
+        Login
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

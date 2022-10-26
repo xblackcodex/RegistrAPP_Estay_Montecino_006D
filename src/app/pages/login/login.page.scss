@@ -1,0 +1,111 @@
+ion-content {
+    --background: rgb(21, 67, 168);
+    --color: #3880ff;
+    --keyboard-offset: 0px;
+    --offset-bottom: 0px;
+    --offset-top: 0px;
+    --padding-bottom: 0px;
+    --padding-end: 0px;
+    --padding-start: 0px;
+    --padding-top: 0px;
+}
+
+.parrafo{
+    text-align: justify;
+    color:rgb(21, 67, 168);
+}
+
+.titulo{
+    text-align: center;
+    color:rgb(21, 67, 168);
+}
+
+ion-card {
+    --background: #ffffff;
+    --color: #3880ff;
+    padding-bottom: 5%;
+}
+
+.texto{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.boton {
+    ion-button {
+        --background: #fcff33;
+        --background-activated: #fcff33;
+        --background-activated-opacity: 1;
+        --background-focused: #fcff33;
+        --background-focused-opacity: 1;
+        --background-hover: #fcff33;
+        --background-hover-opacity: 1;
+        --border-color: #fcff33;
+        --border-radius: 8px;
+        --border-style: solid;
+        --border-width: 8px;
+        --color: #000000;
+        --color-activated: #000000;
+        --color-focused: #000000;
+        --color-hover: rgb(21, 67, 168);
+        --opacity: 1;
+        --padding-bottom: 4px;
+        --padding-end: 4px;
+        --padding-start: 4px;
+        --padding-top: 4px;
+        --ripple-color: #1e1e1e;
+        --transition: background-color 15ms linear;
+    }
+}
+
+ion-item {
+    --background: #ffffff;
+    --background-activated: #ffffff;
+    --background-activated-opacity: 1;
+    --background-focused: #ffffff;
+    --background-focused-opacity: 1;
+    --background-hover: #ffffff;
+    --background-hover-opacity: 1;
+    --border-color: #ffffff;
+    --border-radius: 2px;
+    --border-style: solid;
+    --border-width: 2px;
+    --color: rgb(21, 67, 168);
+    --color-activated: rgb(21, 67, 168);
+    --color-focused: rgb(21, 67, 168);
+    --color-hover: rgb(21, 67, 168);
+    --detail-icon-color: #989aa2;
+    --detail-icon-font-size: 16px;
+    --detail-icon-opacity: 1;
+    --highlight-color-focused: #0cd1e8;
+    --highlight-color-invalid: #f04141;
+    --highlight-color-valid: #10dc60;
+    --highlight-height: 5px;
+    --inner-border-width: 8px;
+    --inner-box-shadow: 4px 4px 4px ;
+    --inner-padding-bottom: 4px;
+    --inner-padding-end: 4px;
+    --inner-padding-start: 4px;
+    --inner-padding-top: 4px;
+    --min-height: 24px;
+    --padding-bottom: 4px;
+    --padding-end: 4px;
+    --padding-start: 4px;
+    --padding-top: 4px;
+    --transition: background-color 15ms linear;
+}
+
+ion-toolbar {
+    --background: rgb(21, 67, 168);
+    --border-color: #f2f563;
+    --border-style: solid;
+    --border-width: 1px;
+    --color: #ffffff;
+    --min-height: 56px;
+    --opacity: 1;
+    --padding-bottom: 4px;
+    --padding-end: 4px;
+    --padding-start: 4px;
+    --padding-top: 4px;
+}
+
